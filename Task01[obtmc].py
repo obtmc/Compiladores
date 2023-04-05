@@ -28,7 +28,7 @@ for i in range(0,size):
         result.append(float(data[i])); # se "data[i]" não é um operador é um número
         #print(result);
 
-print (result[0]);
+print ('\nSaída: ', result[0], '\n');
 fileOut = open('Saida.txt', 'w');
 fileOut.write(str(result[0]));
 
